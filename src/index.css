@@ -4,8 +4,23 @@
 @theme {
     --color-blue:#5F81A5;
     --color-white:#ffff;
+    --color-lightgrey:#4a5565;
     --color-grey:#1C1919;
+    --color-mediumgrey:#364153;
     --color-greydark:#272727;
+    --color-bg-grey:#464646;
     --color-bluedark:#0D3050;
     --color-bluehover:#4F708E;
+}
+
+.dark {
+    --color-blue: #1C1919;
+    --color-white: #ffff;
+    --color-lightgrey: #1C1919;
+    --color-grey: #ffff;
+    --color-mediumgrey: #1C1919;
+    --color-greydark: #1C1919;
+    --color-bg-grey: #1C1919;
+    --color-bluedark: #ffff;
+    --color-bluehover: #1C1919;
 }

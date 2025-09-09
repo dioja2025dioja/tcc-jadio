@@ -8,7 +8,7 @@ import Menu from "../assets/Menu.png"
 import Home from "../assets/home-03.png"
 import Usuario from "../assets/Usuario.png"
 
-export function Header(){
+export function HeaderHome(){
     const { theme, toggle } = useContext(ThemeContext)
 
     return(
@@ -16,9 +16,6 @@ export function Header(){
       <main>
 
         <div className="flex">
-          <button className="ml-10 mt-3 rounded-full size-10  bg-[var(--color-bluehover)]">
-            <Link to={"/Home"}><img className="justify-center items-center size-1px" src={Home} alt="" /></Link> 
-          </button>
 
           <button className="flex right-0 mt-3">
             <Link to={"/Login"}><img className="size-1px " src={ Usuario } alt="" /> </Link>

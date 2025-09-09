@@ -16,10 +16,10 @@ export function Jogo() {
         color: "var(--color-white)",
       }}
     >
-     <header>  <Header /> </header>
+     <header> <button className="ml-3 mt-3"> <Link to={"./Login"}><img className="size-1px" src={ Usuario } alt="" /> </Link> </button> <Header /> </header>
 
       <div className="max-w-6xl mx-auto bg-[rgba(0,0,0,0.3)] rounded-lg p-6 sm:p-10 flex flex-col md:flex-row md:items-center md:justify-between gap-8">
-        
+        {/* Texto */}
         <div className="md:w-1/2 text-justify">
           <h1 className="font-semibold text-[var(--color-blue)] text-4xl mb-2">
             EcoShark
@@ -54,7 +54,7 @@ export function Jogo() {
           </div>
         </div>
 
-       
+        {/* Imagem e botão */}
         <div className="md:w-1/2 flex flex-col items-center">
           <img
             src={JogoImg}
